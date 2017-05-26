@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#FFFFFF"
+  android:gravity="center_vertical"
+  android:orientation="horizontal">
+
+  <LinearLayout
+    android:id="@+id/linearLayout1"
+    android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:paddingTop="15dip"
+    android:paddingBottom="15dip"
+    android:paddingLeft="10dp"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/one_status_time"
+      style="@style/s_666666_20"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_vertical|right"
+      android:text="6月" />
+
+    <TextView
+      android:id="@+id/one_status_week"
+      style="@style/s_666666_20"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_vertical|right"
+      android:text="星期二" />
+  </LinearLayout>
+
+  <FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp">
+
+    <TextView
+      android:id="@+id/group_tiao"
+      android:layout_width="1dp"
+      android:layout_height="fill_parent"
+      android:layout_gravity="center"
+      android:background="@color/cut_line" />
+
+    <ImageView
+      android:id="@+id/imageView1"
+      android:layout_width="10dp"
+      android:layout_height="10dp"
+      android:layout_marginLeft="5dp"
+      android:layout_marginRight="5dp"
+      android:layout_gravity="center_vertical"
+      android:contentDescription="@string/app_name"
+      android:src="@mipmap/expand_list_date_icon"
+      android:visibility="invisible"></ImageView>
+  </FrameLayout>
+
+
+</LinearLayout>
