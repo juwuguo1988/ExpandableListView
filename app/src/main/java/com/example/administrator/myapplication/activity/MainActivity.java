@@ -50,26 +50,7 @@ public class MainActivity extends AppCompatActivity {
                     + "\"count\":1000,\"status\":2,\"source\":1,\"confirmedAt\":null,\"dosage\":20000},{\"id\":38097,\"medicineId\":0,"
                     + "\"planId\":16194,\"medicineName\":\"替米沙坦\",\"takeTime\":1495621800000,\"count\":1000,\"status\":2,\"source\":1,"
                     + "\"confirmedAt\":null,\"dosage\":20000},{\"id\":38107,\"medicineId\":0,\"planId\":16193,\"medicineName\":\"替米沙坦\","
-                    + "\"takeTime\":1495619100000,\"count\":1000,\"status\":2,\"source\":1,\"confirmedAt\":null,\"dosage\":20000},"
-                    + "{\"id\":38105,\"medicineId\":0,\"planId\":16192,\"medicineName\":\"替米沙坦\",\"takeTime\":1495618200000,"
-                    + "\"count\":1000,\"status\":2,\"source\":1,\"confirmedAt\":null,\"dosage\":20000},{\"id\":38104,\"medicineId\":0,"
-                    + "\"planId\":16191,\"medicineName\":\"替米沙坦\",\"takeTime\":1495617300000,\"count\":1000,\"status\":2,\"source\":1,"
-                    + "\"confirmedAt\":null,\"dosage\":20000},{\"id\":37963,\"medicineId\":0,\"planId\":15467,\"medicineName\":\"络活喜\","
-                    + "\"takeTime\":1495584000000,\"count\":1000,\"status\":2,\"source\":1,\"confirmedAt\":null,\"dosage\":20000},"
-                    + "{\"id\":38081,\"medicineId\":0,\"planId\":15430,\"medicineName\":\"拜新同\",\"takeTime\":1495584000000,"
-                    + "\"count\":1000,\"status\":2,\"source\":1,\"confirmedAt\":null,\"dosage\":20000},{\"id\":38060,\"medicineId\":0,"
-                    + "\"planId\":15966,\"medicineName\":\"阿司匹林肠溶片\",\"takeTime\":1495584000000,\"count\":1000,\"status\":2,\"source\":1,"
-                    + "\"confirmedAt\":null,\"dosage\":20000},{\"id\":38055,\"medicineId\":0,\"planId\":16166,\"medicineName\":\"波依定\","
-                    + "\"takeTime\":1495584000000,\"count\":2000,\"status\":2,\"source\":1,\"confirmedAt\":null,\"dosage\":20000},"
-                    + "{\"id\":38038,\"medicineId\":0,\"planId\":15429,\"medicineName\":\"卡托普利\",\"takeTime\":1495584000000,"
-                    + "\"count\":1000,\"status\":2,\"source\":1,\"confirmedAt\":null,\"dosage\":2000},{\"id\":38019,\"medicineId\":0,"
-                    + "\"planId\":15466,\"medicineName\":\"雅施达\",\"takeTime\":1495584000000,\"count\":1000,\"status\":2,\"source\":1,"
-                    + "\"confirmedAt\":null,\"dosage\":20000},{\"id\":38061,\"medicineId\":0,\"planId\":15968,"
-                    + "\"medicineName\":\"阿司匹林肠溶片\",\"takeTime\":1495576800000,\"count\":1000,\"status\":2,\"source\":1,"
-                    + "\"confirmedAt\":null,\"dosage\":20000},{\"id\":38054,\"medicineId\":0,\"planId\":16165,\"medicineName\":\"波依定\","
-                    + "\"takeTime\":1495573200000,\"count\":1000,\"status\":2,\"source\":1,\"confirmedAt\":null,\"dosage\":20000},"
-                    + "{\"id\":38123,\"medicineId\":0,\"planId\":15967,\"medicineName\":\"阿司匹林肠溶片\",\"takeTime\":1495573200000,"
-                    + "\"count\":1000,\"status\":2,\"source\":1,\"confirmedAt\":null,\"dosage\":20000}]}}";
+                    + "\"takeTime\":1495619100000,\"count\":1000,\"status\":2,\"source\":1,\"confirmedAt\":null,\"dosage\":20000}]}}";
     private XExpandableListView mExpandableListView;
     private List<DateStatusBean> mDataList;
     private StatusExpandAdapter mStatusExpandAdapter;
