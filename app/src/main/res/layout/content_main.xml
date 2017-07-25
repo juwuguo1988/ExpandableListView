@@ -5,11 +5,11 @@
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   app:layout_behavior="@string/appbar_scrolling_view_behavior"
-  tools:context="com.example.administrator.myapplication.activity.MainActivity"
+  tools:context=".activity.MainActivity"
   tools:showIn="@layout/activity_main">
 
 
-  <com.example.administrator.myapplication.common.views.XExpandableListView
+  <com.example.administrator.expandapplication.common.views.XExpandableListView
     android:id="@+id/exlv_listview"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -18,5 +18,5 @@
     android:childDivider="@color/cut_line"
     android:divider="@null"
     android:listSelector="#00000000">
-  </com.example.administrator.myapplication.common.views.XExpandableListView>
+  </com.example.administrator.expandapplication.common.views.XExpandableListView>
 </android.support.constraint.ConstraintLayout>

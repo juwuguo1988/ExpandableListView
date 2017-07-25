@@ -1,4 +1,4 @@
-package com.example.administrator.myapplication.adapter;
+package com.example.administrator.expandapplication.adapter;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -9,11 +9,11 @@ import android.widget.BaseExpandableListAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import com.example.administrator.myapplication.R;
-import com.example.administrator.myapplication.modle.DateStatusBean;
-import com.example.administrator.myapplication.modle.RecordBean;
-import com.example.administrator.myapplication.modle.TimeContentStatusBean;
-import com.example.administrator.myapplication.utils.TimeUtils;
+import com.example.administrator.expandapplication.R;
+import com.example.administrator.expandapplication.modle.DateStatusBean;
+import com.example.administrator.expandapplication.modle.RecordBean;
+import com.example.administrator.expandapplication.modle.TimeContentStatusBean;
+import com.example.administrator.expandapplication.utils.TimeUtils;
 import java.util.ArrayList;
 import java.util.List;
 

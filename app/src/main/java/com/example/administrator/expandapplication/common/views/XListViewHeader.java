@@ -4,7 +4,7 @@
  * @author Maxwin
  * @description XListView's header
  */
-package com.example.administrator.myapplication.common.views;
+package com.example.administrator.expandapplication.common.views;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -17,8 +17,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import com.example.administrator.myapplication.R;
-
+import com.example.administrator.expandapplication.R;
 
 public class XListViewHeader extends LinearLayout {
 	private LinearLayout mContainer;
